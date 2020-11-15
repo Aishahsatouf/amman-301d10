@@ -225,8 +225,8 @@ console.log(joe.scopeArrow());
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-// undefined
+// the wiindow object
 // 2. What is "this" when joe.scopeArrow() is invoked?
-// undefined
+// the window object
 // 3. Explain why "this" is different when an arrow function is used.
 // because arrow fuction cannot be used as a constructor,and they do not have their own this,and this value is enclosed to lexical scope is used.
